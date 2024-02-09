@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poopies';
+}
+
+body{
+    background-image: url(login\ back.jpg);
+    background-size: cover;
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 60px;
+    width: 200px;
+}
+
+.navbar a{
+    color: rgb(237, 188, 252);
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    border: 2px solid rgb(55, 154, 184);
+    border-radius: 5px;
+    background: linear-gradient(50deg, rgb(5, 236, 217),#ae15eb, rgb(255, 178, 62),#7f50ff);
+}
+
+.signup{
+    border: 2px solid rgb(56, 162, 194);
+    height: 350px;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 150px;
+    margin-top: 60px;
+    backdrop-filter: blur(500px);
+    border-radius: 10px;
+}
+
+.user{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 23px;
+    border-bottom:2px solid #d306fc;
+
+}
+.user input{
+        font-size: 17px;
+        background-color: transparent;
+        border: none;       
+}
+.user i{
+    color: rgb(53, 155, 202);
+}
+.pass{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 23px;
+    border-bottom:2px solid #f1b23b;
+}
+.pass input{
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+}
+.pass i{
+    color: rgb(53, 155, 202);
+}
+.but{
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.but button{
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgb(73, 72, 72);
+    background: linear-gradient(50deg, rgb(5, 236, 217),#ae15eb, rgb(255, 178, 62),#7f50ff);
+    color: white;
+    border-radius: 10px;
+    font-size: 0.90rem;
+}
+.but button:hover{
+           border: 2px solid rgb(37, 38, 44);
+           background: linear-gradient(50deg, white,#5e0083, rgb(192, 179, 0),#7b0080);
+           
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 25px ;
+    color: white;
+    border-bottom:2px solid #fffc5e;
+    width: 225px;
+}
